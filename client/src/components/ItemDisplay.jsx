@@ -63,7 +63,7 @@ export function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
                         size="sm"
                         variant="link"
                         onClick={removeItem}
-                        aria-label="Remove Item"
+                        aria-label="Remove Item..."
                     >
                         <FontAwesomeIcon
                             icon={faTrash}
