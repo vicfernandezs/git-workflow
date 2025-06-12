@@ -59,6 +59,7 @@ export function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
                 </Col>
                 <Col xs={2} className="text-center remove">
                     <Button
+                    title="Eliminar Tarea"
                         size="sm"
                         variant="link"
                         onClick={removeItem}
